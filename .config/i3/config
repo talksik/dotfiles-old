@@ -193,3 +193,6 @@ bar {
 exec_always --no-startup-id xset r rate 200 30
 exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/talksik-fedora/Pictures/wallpaper.jpg'
 exec --no-startup-id picom --active-opacity .95 --inactive-opacity .70
+# dnf copr enable alick/volumeicon
+# dnf install volumeicon
+exec --no-startup-id volumeicon
