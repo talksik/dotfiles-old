@@ -10,7 +10,8 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
-export PATH=$PATH:/usr/local/go/bin:$HOME/protolint_0.44.0_Linux_x86_64/
+
+export PATH=$PATH:/usr/local/go/bin:$HOME/protolint_0.44.0_Linux_x86_64/:$HOME/.cargo/bin:$HOME/go/bin
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
